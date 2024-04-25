@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38ddc46d45.js" crossorigin="anonymous"></script>
+</head>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" class="logo">
+                <ul  id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Web/Software Developer</p>
+                <h1>Hi, i'm <span class="name">Manyam</span> Chaitanya </h1>
+            </div>
+        </div>
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Welcome to my portfolio! I'm Manyam Chaitanya, a dedicated Electronics and Communication Engineering student with a passion for technology and a drive to contribute innovative solutions to real-world challenges. 
+                Currently pursuing my Bachelor's degree, I have honed my skills in various programming languages including Java, Python, HTML, CSS, and  JavaScript.</p>
+                    <div class="tabtitles">
+                        <p class="tablinks  activelink" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('epxeri')">Experiencne</p>
+                        <p class="tablinks " onclick="opentab('Educ')">Education</p>
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+                        <ul class="skilllogo"> 
+                            <li><span>Java</span></li>
+                            <li><span>MySQL</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>HTML/CSS </span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>ReactJs</span></li>
+                            <li><span>MongoDB</span></li>
+                            <li><span>Graphic Designing</span></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="epxeri">
+                        <ul>
+                            <li><span>January,2023 - February,2023</span><br> API and Frontend Developer at Helix Techin Info System Pvt Ltd </li>
+                            <li><span>June,2022 - Present</span><br> Graphic Designer at We Care Social Welfare Society (NGO) </li>
+                            <li><span>December,2021 - February,2023</span><br> Content Creator On Youtube </li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="Educ">
+                        <ul>
+                            <li><span>2020-2024</span><br> B.Tech (Electronics & Communication Engineering) at Lakshmi Narain College of Technology,Bhopal</li>
+                            <li><span>2019-2020 </span><br> PCM with Informatics Practices (XII-CBSE) at Shadra Vidya Mandir,Bhopal</li>
+                            <li><span>2017-2018 </span><br> Science (X-CBSE) at Shadra Vidya Mandir,Bhopal</li>
+                        </ul>
+                    </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<!----services-->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designer</h2>
+                <p >A budding web designer passionately exploring the realms of programming languages to craft captivating frontend designs for websites.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Graphic Designer</h2>
+                <p> As a part-time graphic designer, I currently work for an NGO and create the visuals for my YouTube channel.</p> 
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Java Developer</h2>
+                <p> A a Java Developer with a passion for crafting robust and efficient software solutions. My journey in the world of programming has been anchored by a strong command of Java and a commitment to creating impactful applications.</p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!--portfolio-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle"> My Projects </h1>
+        <div class="work_list">
+            <div class="work">
+                <img src="work-111.png">
+                <div class="layer">
+                    <h3>Computer Retailer Store and  Maintenance</h3>
+                    <p>Computer Retailer store database management system that keeps track of the store's data and assists the owner in providing better service. - Java , MySql.</p>
+                    <a href="https://github.com/mannyamm21/computerstore" target=”_blank”><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-22.png">
+                <div class="layer">
+                    <h3>My Own Portfolio</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-77.png">
+                <div class="layer">
+                    <h3>News WebPage</h3>
+                    <p>The News is a dynamic and interactive news webpage that harnesses the power of HTML, CSS, JavaScript, and the News API to provide users with a seamless and personalized news browsing experience.
+                        API Used: gnews.io</p>
+                    <a href="https://mannyamm21.github.io/TheNews_webpage_api/" target=”_blank”><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="meal_it.png">
+                <div class="layer">
+                    <h3>Online Food Ordering Web Application</h3>
+                    <p>Online Food Ordering Platform built with MERN stack. Seamlessly browse, order, and track deliveries with user authentication and PayPal integration. 
+                        Responsive design ensures optimal user experience. 
+                        Future plans include personalized recommendations and social media integration.</p>
+                    <a href="https://meal-it-mernstack.onrender.com/" target=”_blank”><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>  
+            <div class="work">
+                <img src="blog_page.png">
+                <div class="layer">
+                    <h3>Blog Page</h3>
+                    <p>A stylish blog site powered by cutting-edge technologies. Leveraging Vite React, Tailwind CSS, and Appwrite, this project showcases seamless content management,
+                         intuitive user experience, and robust performance.</p>
+                    <a href="https://main--mac-blog-page.netlify.app/" target=”_blank”><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+
+<!----contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>manyamchaitanya07@gmail.com</p>
+                <div class="social-icons">
+                    <a  href="https://www.instagram.com/manyamm._/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
+                    <a  href="https://www.linkedin.com/in/manyam-chaitanya-24715821a/" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
+                    <a  href="https://github.com/mannyamm21" target=”_blank”><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="copyright">
+        <p>Copyright © Manyam's Portfolio</p>
+    </div>
+</div>
+
+<script src="script.js">
+  </script>
+</body>
+</html>
